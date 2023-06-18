@@ -1,0 +1,25 @@
+ul,ol{
+font-size: 24px;
+color: darkred;
+margin-inline-start: 100px
+}
+.mr li marker{
+color: skyblue
+
+
+}
+.mr li{
+padding-inline: 10x
+
+}
+@counter-style circled-digits {
+	
+system: cyclic;
+symbols:😀 👻 👽 👾 🤖 🎃 😹 👋 👀 💋 ;
+suffix:" ";
+
+}
+ul.cd{
+list-style: circeled-digits;
+
+}
